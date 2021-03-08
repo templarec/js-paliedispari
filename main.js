@@ -15,7 +15,6 @@ function checkPalindromo(parola) {
 			check = true;
 		}
 	}
-
 	return check;
 }
 //funzione che genera un numero random tra min e max
@@ -40,12 +39,9 @@ function checkPariInt() {
 
 		case 1:
 			return false;
-
 	}
 }
-
-
-console.log("La parola inserita è palindroma? (true sì)" + checkPalindromo(input));
+console.log("La parola inserita è palindroma? (true sì) " + checkPalindromo(input));
 //genero numero per il pc
 var numeroPc = generaNumero(1,5);
 //chiedo numero ad utente
